@@ -2902,7 +2902,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-intro {
     --header-height     : 8.8rem;
-    --logo-width        : 78px;
+    --logo-width        : 250px;
     --text-display-size : 11.2rem;
     --text-multiplier   : 1;
     z-index             : 3;
@@ -2917,6 +2917,7 @@ img.u-pull-left {
                           0 22px 22px rgba(0, 0, 0, 0.1);
     overflow            : hidden;
     position            : relative;
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 1));
 }
 
 .s-intro a {
@@ -2947,10 +2948,13 @@ img.u-pull-left {
     bottom              : 0;
     width               : 100%;
     height              : 100%;
-    background-image    : url(../images/bg-static.jpg);
+    background-image    : url(../images/matterhorn-small.png);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
+    opacity: 0.35;
+    filter: blur(4px);
+    
 }
 
 .s-intro__bg::before {
@@ -3111,7 +3115,7 @@ img.u-pull-left {
 .s-intro__logo {
     z-index  : 4;
     position : absolute;
-    top      : 2.4rem;
+    top      : -11rem;
     left     : 4rem;
 }
 
