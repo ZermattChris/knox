@@ -2952,6 +2952,7 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
+    object-fit: cover;
     opacity: 0.35;
     filter: blur(4px);
     
