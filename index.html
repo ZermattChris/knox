@@ -132,8 +132,8 @@
                 Just send us a simple email and we'll notify you when the project is out of Beta.
                 </p>
 
-                <form id="mc-form" class="mc-form">
-                    <input type="button" onclick="sendAMail" name="sendMail" value="sendMail" class="btn--small btn--primary u-fullwidth">
+                <form id="mc-form" class="mc-form" enctype="multipart/form-data" method="POST" action="mailto:info@matterhornart.com?subject=Let%20me%20know%20when%20Matterhorn%20Art%20Studios%20project%20goes%20live!&body=Just%20send%20us%20an%20email%20and%20we&#8217;ll%20let%20you%20know%20when%20we&#8217;re%20up%20and%20running%20(we%20don&#8217;t%20share%20your%20email%20and%20no%20spam).">
+                    <input type="submit" name="sendMail" value="sendMail" class="btn--small btn--primary u-fullwidth">
                     <div class="mc-status"></div>
                 </form>
 

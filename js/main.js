@@ -168,12 +168,6 @@
     };
 
 
-   /* Simple Email opener and formatter.
-    * ------------------------------------------------------ */ 
-    const sendAMail = function() {
-        alert('send mail')
-        
-    };
 
 
 //    /* MailChimp Form
@@ -609,7 +603,6 @@
         ssCountdown();
         ssModal();
         ssSwiper();
-        sendAMail();
         // ssMailChimpForm();
         sstabs();
         ssAlertBoxes();
