@@ -609,7 +609,8 @@
         ssCountdown();
         ssModal();
         ssSwiper();
-        ssMailChimpForm();
+        sendAMail();
+        // ssMailChimpForm();
         sstabs();
         ssAlertBoxes();
         ssMoveTo();
