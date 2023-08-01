@@ -3619,9 +3619,16 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 400px) {
-    .s-intro {
-        --logo-width : 70px;
+
+    .s-intro img.logo {
+        width: 160px; 
+        position: relative; 
+        top: 2.8em;
     }
+
+    /* .s-intro {
+        --logo-width : 150px;
+    } */
 
     .s-intro__logo {
         left : calc(6vw);
